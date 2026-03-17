@@ -109,7 +109,7 @@ If a second hero assists, both roll d20 + the relevant stat and take the **highe
 Some weapons require a minimum stat to use effectively. Using a weapon below its requirement means **disadvantage** — roll the d20 twice and take the lower result.
 
 | Weapon | Damage | Requirement |
-|---|---|---|---|
+|---|---|---|
 | Dagger / Sling | d4 | None |
 | Shortsword / Hand axe | d6 | STR 3+ |
 | Shortbow | d6 | DEX 3+ |
