@@ -229,28 +229,12 @@ This game uses **milestone leveling**. The Guide awards a level when the party r
 
 | Level | Stat Points | New Spells | Special |
 |---|---|---|---|
-| 1 | 10 to start | 3 starting spells | Build your hero |
-| 2 | +1 | +1 | — |
-| 3 | +2 | +1 | **Signature Move** unlocked |
-| 4 | +2 | +1 | **Bonus Feature** (choose one below) |
-| 5 | +2 | +2 | Stat cap rises to 10; **Legendary Ability** unlocked |
-| 6+ | +2 per level | +1 per level | Guide's choice of bonus |
-
-### Bonus Features (Level 4, choose one)
-
-- **Extra Attack** — attack twice per turn instead of once
-- **Tough** — maximum HP permanently increases by 6
-- **Sharp** — once per session, treat any roll as if you rolled a 15
-
-### Signature Move (Level 3)
-
-Work with the Guide to define one special thing only your hero can do — once per session. It should feel personal and unique.
-
-> *Examples: "Vanish in a puff of smoke," "Roar to make nearby enemies hesitate," "Foresee the outcome of one action before committing to it."*
-
-### Legendary Ability (Level 5)
-
-Once per session, automatically succeed on any one roll without rolling the dice. Describe the moment heroically — this is your hero at their absolute best.
+| 1 | 10 to start | 2 starting spells | Stat cap at 5 |
+| 2 | +2 | +1 |  |
+| 3 | +2 | +1 |  |
+| 4 | +2 | +1 |  |
+| 5 | +2 | +1 | Stat cap rises to 10 |
+| 6+ | +2 per level | +1 per level |  |
 
 ---
 
