@@ -5,7 +5,7 @@
 
 #### Goblin Scout *(Minion · Humanoid)*
 **HP:** 8 &nbsp; **Defense:** 11 &nbsp;
-**STR** 2 &nbsp; **DEX** 2 &nbsp; **MND** 1 &nbsp; **CHA** 1
+**STR** 1 &nbsp; **DEX** 3 &nbsp; **MND** 1
 
 - **Rusty Dagger** — d20+DEX vs Defense. Hit: d4 damage.
 - **Sneaky Stab** — If hidden or flanking, deal +d4 bonus damage on a hit. Once per combat.
@@ -16,7 +16,7 @@
 
 #### Skeleton Archer *(Minion · Undead)*
 **HP:** 6 &nbsp; **Defense:** 10 &nbsp;
-**STR** 3 &nbsp; **DEX** 3 &nbsp; **MND** 2 &nbsp; **CHA** 2
+**STR** 1 &nbsp; **DEX** 3 &nbsp; **MND** 1
 
 - **Bone Arrow** — d20+DEX vs Defense, ranged. Hit: d6 damage.
 - **Rattle** — Once per combat — all nearby heroes make a Mind check (difficulty 10) or lose their quick action on their next turn.
@@ -27,7 +27,7 @@
 
 #### Shadow Wolf *(Standard · Beast)*
 **HP:** 22 &nbsp; **Defense:** 12 &nbsp;
-**STR** 4 &nbsp; **DEX** 4 &nbsp; **MND** 2 &nbsp; **CHA** 4
+**STR** 3 &nbsp; **DEX** 3 &nbsp; **MND** 1
 
 - **Bite** — d20+STR vs Defense. Hit: d8 damage.
 - **Trip** — d20+STR vs Defense. On hit: target falls prone — their next attack roll is made with disadvantage. Recharges each round.
@@ -39,7 +39,7 @@
 
 #### Bandit Captain *(Standard · Humanoid)*
 **HP:** 26 &nbsp; **Defense:** 13 &nbsp;
-**STR** 4 &nbsp; **DEX** 3 &nbsp; **MND** 3 &nbsp; **CHA** 4
+**STR** 3 &nbsp; **DEX** 2 &nbsp; **MND** 2
 
 - **Longsword** — d20+STR vs Defense. Hit: d8 damage.
 - **Rally!** — Once per combat — up to 2 minion allies each immediately take a free attack or move their full distance.
@@ -51,7 +51,7 @@
 
 #### Cave Troll *(Elite · Giant)*
 **HP:** 44 &nbsp; **Defense:** 13 &nbsp;
-**STR** 7 &nbsp; **DEX** 3 &nbsp; **MND** 3 &nbsp; **CHA** 2
+**STR** 5 &nbsp; **DEX** 1 &nbsp; **MND** 1
 
 - **Club Slam** — d20+STR vs Defense. Hit: d10 damage. Target must make STR check (difficulty 14) or be knocked back and fall prone.
 - **Double Swipe** — Make two Claw attacks (d6 each) against one or two targets. Once per round.
@@ -63,7 +63,7 @@
 
 #### Swamp Witch *(Elite · Humanoid)*
 **HP:** 36 &nbsp; **Defense:** 12 &nbsp;
-**STR** 4 &nbsp; **DEX** 5 &nbsp; **MND** 7 &nbsp; **CHA** 4
+**STR** 1 &nbsp; **DEX** 2 &nbsp; **MND** 4
 
 - **Hex Bolt** — d20+MND vs Defense. Hit: d8 dark damage. Target has disadvantage on their next roll.
 - **Thorn Cage** — MND vs difficulty 12. On success: target is restrained in vines. Break free with STR check difficulty 14 on their turn. Once per combat.
@@ -75,7 +75,7 @@
 
 #### Iron Warlord *(Boss · Humanoid)*
 **HP:** 70 &nbsp; **Defense:** 16 &nbsp;
-**STR** 8 &nbsp; **DEX** 5 &nbsp; **MND** 6 &nbsp; **CHA** 5
+**STR** 5 &nbsp; **DEX** 2 &nbsp; **MND** 3
 
 - **Greatsword** — d20+STR vs Defense. Hit: d10+3 damage.
 - **Shield Bash** — d20+STR vs Defense. Hit: d6 damage; target is stunned and loses their next action. Once per round.
@@ -89,7 +89,7 @@
 
 #### Ashveil the Ancient *(Legendary · Dragon)*
 **HP:** 130 &nbsp; **Defense:** 17 &nbsp;
-**STR** 8 &nbsp; **DEX** 6 &nbsp; **MND** 7 &nbsp; **CHA** 8
+**STR** 5 &nbsp; **DEX** 3 &nbsp; **MND** 4
 
 - **Claw / Claw / Bite** — Three attacks per turn: two Claws (d8, STR) and one Bite (d10+4, STR). May split among targets.
 - **Fire Breath** — All heroes in a cone make DEX check difficulty 15. Fail: 4d6 fire damage. Succeed: half damage. Recharges on 4+ on a d6 at the start of her turn.

@@ -262,8 +262,8 @@ Every monster uses the same simple layout:
 
 ```
 Name · Tier · Type
-HP: [number]   Defense: [number]   Initiative: +[bonus]
-STR [1–10]   DEX [1–10]   MND [1–10]
+HP: [number]   Defense: [number]
+STR [1–10]   DEX [1–10]   MND [1–10]   CHA [1-10]
 ─────────────────────────────────
 Actions:
 · [Attack name] — roll d20+[stat] vs Defense. Hit: [damage]
