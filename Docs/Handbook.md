@@ -235,6 +235,7 @@ This game uses **milestone leveling**. The Guide awards a level when the party r
 | 4 | +2 | +1 |  |
 | 5 | +2 | +1 | Stat cap rises to 10 |
 | 6+ | +2 per level | +1 per level |  |
+| 10 | +2 | +1 | Max Level |
 
 ---
 
@@ -261,10 +262,10 @@ Flavor: One sentence. What does it look like? What does it want?
 | Tier | Best Against | Role |
 |---|---|---|
 | Minion | Level 1–2 | Weak alone, dangerous in groups |
-| Standard | Level 2–3 | A solid fight for a party of 4 |
-| Elite | Level 3–4 | A tough solo threat or mid-boss |
-| Boss | Level 4–5 | Main villain; acts twice per round |
-| Legendary | Level 5+ | World-shaking; three phases |
+| Standard | Level 3–4 | A solid fight for a party of 4 |
+| Elite | Level 5–6 | A tough solo threat or mid-boss |
+| Boss | Level 7–8 | Main villain; acts twice per round |
+| Legendary | Level 9+ | World-shaking; three phases |
 
 ---
 
