@@ -119,8 +119,6 @@ Some weapons require a minimum stat to use effectively. Using a weapon below its
 | Heavy crossbow | d10 | DEX 5+ |
 | Staff / Wand | d4 | None |
 
-> **Finesse weapons** (rapier, whip) may use DEX for melee attacks at the Guide's discretion. They deal d6 and require DEX 2+.
-
 ---
 
 ## Combat
