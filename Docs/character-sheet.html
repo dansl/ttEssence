@@ -1104,44 +1104,6 @@
                     style="min-height: 120px"
                 ></textarea>
             </div>
-
-            <!-- PRINT BUTTON -->
-            <div class="no-print" style="text-align: center; margin-top: 16px">
-                <button
-                    onclick="window.print()"
-                    style="
-                        font-family: &quot;Cinzel&quot;, serif;
-                        font-size: 11px;
-                        letter-spacing: 0.15em;
-                        text-transform: uppercase;
-                        padding: 8px 24px;
-                        border: 1.5px solid var(--border);
-                        background: var(--parchment-dark);
-                        color: var(--accent);
-                        cursor: pointer;
-                    "
-                >
-                    &#9876; Print Character Sheet
-                </button>
-                <span
-                    style="
-                        font-family: &quot;Crimson Text&quot;, serif;
-                        font-size: 11px;
-                        color: var(--ink-faint);
-                        margin-left: 12px;
-                    "
-                    >or use Ctrl/Cmd + P</span
-                >
-            </div>
         </div>
-        <script>
-            document.querySelectorAll(".stat-score input").forEach((inp) => {
-                inp.addEventListener("input", () => {
-                    const v = parseInt(inp.value);
-                    inp.style.color =
-                        isNaN(v) || v < 1 || v > 10 ? "#c0392b" : "var(--ink)";
-                });
-            });
-        </script>
     </body>
 </html>
