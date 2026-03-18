@@ -72,7 +72,7 @@ Your hero is **knocked out**. They can't act. An ally can spend their action to 
 
 ## Checks & Rolls
 
-### The Core Roll
+### Skill Check Roll
 
 When a hero tries something risky or uncertain, the GM decides how difficult the action will be using chart below. Heroes roll a **d20** and adds the relevant stat (ex: add DEX for a jump action or STR for pulling/pushing something). Meet or beat the **difficulty number** to succeed at the task.
 
@@ -135,7 +135,7 @@ Depending on the weapon or action, you roll **d20 + STR** (Melee) or **d20 + DEX
 In between a battle or big event you can Short or Long rest.
 
 - **Short rest** (a brief break) — restore **half HP and MP**.
-- **Long rest** (a full night's sleep) — restore **all HP and all MP**, possibility to get attacked or robbed while resting. GM rolls to see if an event happens.
+- **Long rest** (a full night's sleep) — restore **all HP and all MP**, restore magical items, restore ammo for ranged weapons (ex: bow). Possibility to get attacked or robbed while resting. GM may roll to see if an event happens using d20 and difficulty of their choice according to the surroundings.
 
 ---
 
