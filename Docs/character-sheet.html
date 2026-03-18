@@ -55,10 +55,25 @@
                 width: 100%;
                 height: 100%;
             }
-            .tl { top: 10px; left: 10px; }
-            .tr { top: 10px; right: 10px; transform: scaleX(-1); }
-            .bl { bottom: 10px; left: 10px; transform: scaleY(-1); }
-            .br { bottom: 10px; right: 10px; transform: scale(-1); }
+            .tl {
+                top: 10px;
+                left: 10px;
+            }
+            .tr {
+                top: 10px;
+                right: 10px;
+                transform: scaleX(-1);
+            }
+            .bl {
+                bottom: 10px;
+                left: 10px;
+                transform: scaleY(-1);
+            }
+            .br {
+                bottom: 10px;
+                right: 10px;
+                transform: scale(-1);
+            }
             .header {
                 text-align: center;
                 margin-bottom: 10px;
@@ -128,7 +143,9 @@
                 padding: 1px 2px;
                 outline: none;
             }
-            .field-line:focus { border-bottom-color: var(--accent); }
+            .field-line:focus {
+                border-bottom-color: var(--accent);
+            }
             .field-area {
                 border: none;
                 border-bottom: 1px solid var(--border);
@@ -143,7 +160,9 @@
                 line-height: 1.55;
                 overflow: hidden;
             }
-            .field-area:focus { border-bottom-color: var(--accent); }
+            .field-area:focus {
+                border-bottom-color: var(--accent);
+            }
             .identity-layout {
                 display: grid;
                 grid-template-columns: 110px 1fr;
@@ -358,7 +377,9 @@
                 width: 100%;
                 text-align: center;
             }
-            .weapon-row input.name-input { text-align: left; }
+            .weapon-row input.name-input {
+                text-align: left;
+            }
             .col-hdr {
                 font-family: serif;
                 font-size: 7px;
@@ -367,7 +388,9 @@
                 color: var(--ink-faint);
                 text-align: center;
             }
-            .col-hdr.left { text-align: left; }
+            .col-hdr.left {
+                text-align: left;
+            }
             .spell-rows {
                 display: flex;
                 flex-direction: column;
@@ -390,7 +413,9 @@
                 padding: 1px 2px;
                 width: 100%;
             }
-            .spell-row input.mp-input { text-align: center; }
+            .spell-row input.mp-input {
+                text-align: center;
+            }
             .lined-box {
                 border: 1px solid var(--border);
                 background: var(--parchment-mid);
@@ -410,7 +435,9 @@
                 );
                 background-position: 0 4px;
             }
-            .lined-box:focus { border-color: var(--accent); }
+            .lined-box:focus {
+                border-color: var(--accent);
+            }
             .inv-rows {
                 display: flex;
                 flex-direction: column;
@@ -441,11 +468,22 @@
                 outline: none;
                 padding: 1px 2px;
             }
-            .inv-input:focus { border-bottom-color: var(--accent); }
+            .inv-input:focus {
+                border-bottom-color: var(--accent);
+            }
             @media print {
-                body { background: white; padding: 0; }
-                .sheet { box-shadow: none; width: 100%; min-height: auto; }
-                .no-print { display: none; }
+                body {
+                    background: white;
+                    padding: 0;
+                }
+                .sheet {
+                    box-shadow: none;
+                    width: 100%;
+                    min-height: auto;
+                }
+                .no-print {
+                    display: none;
+                }
             }
         </style>
     </head>
@@ -453,34 +491,90 @@
         <div class="sheet">
             <div class="corner tl">
                 <svg viewBox="0 0 40 40" fill="none">
-                    <path d="M2 38 L2 8 Q2 2 8 2 L38 2" stroke="#8a6c3a" stroke-width="1.5" fill="none"/>
-                    <path d="M6 34 L6 10 Q6 6 10 6 L34 6" stroke="#b8975a" stroke-width="0.75" fill="none"/>
-                    <circle cx="8" cy="8" r="2.5" fill="#8a6c3a"/>
-                    <path d="M2 20 L8 20 M20 2 L20 8" stroke="#8a6c3a" stroke-width="1"/>
+                    <path
+                        d="M2 38 L2 8 Q2 2 8 2 L38 2"
+                        stroke="#8a6c3a"
+                        stroke-width="1.5"
+                        fill="none"
+                    />
+                    <path
+                        d="M6 34 L6 10 Q6 6 10 6 L34 6"
+                        stroke="#b8975a"
+                        stroke-width="0.75"
+                        fill="none"
+                    />
+                    <circle cx="8" cy="8" r="2.5" fill="#8a6c3a" />
+                    <path
+                        d="M2 20 L8 20 M20 2 L20 8"
+                        stroke="#8a6c3a"
+                        stroke-width="1"
+                    />
                 </svg>
             </div>
             <div class="corner tr">
                 <svg viewBox="0 0 40 40" fill="none">
-                    <path d="M2 38 L2 8 Q2 2 8 2 L38 2" stroke="#8a6c3a" stroke-width="1.5" fill="none"/>
-                    <path d="M6 34 L6 10 Q6 6 10 6 L34 6" stroke="#b8975a" stroke-width="0.75" fill="none"/>
-                    <circle cx="8" cy="8" r="2.5" fill="#8a6c3a"/>
-                    <path d="M2 20 L8 20 M20 2 L20 8" stroke="#8a6c3a" stroke-width="1"/>
+                    <path
+                        d="M2 38 L2 8 Q2 2 8 2 L38 2"
+                        stroke="#8a6c3a"
+                        stroke-width="1.5"
+                        fill="none"
+                    />
+                    <path
+                        d="M6 34 L6 10 Q6 6 10 6 L34 6"
+                        stroke="#b8975a"
+                        stroke-width="0.75"
+                        fill="none"
+                    />
+                    <circle cx="8" cy="8" r="2.5" fill="#8a6c3a" />
+                    <path
+                        d="M2 20 L8 20 M20 2 L20 8"
+                        stroke="#8a6c3a"
+                        stroke-width="1"
+                    />
                 </svg>
             </div>
             <div class="corner bl">
                 <svg viewBox="0 0 40 40" fill="none">
-                    <path d="M2 38 L2 8 Q2 2 8 2 L38 2" stroke="#8a6c3a" stroke-width="1.5" fill="none"/>
-                    <path d="M6 34 L6 10 Q6 6 10 6 L34 6" stroke="#b8975a" stroke-width="0.75" fill="none"/>
-                    <circle cx="8" cy="8" r="2.5" fill="#8a6c3a"/>
-                    <path d="M2 20 L8 20 M20 2 L20 8" stroke="#8a6c3a" stroke-width="1"/>
+                    <path
+                        d="M2 38 L2 8 Q2 2 8 2 L38 2"
+                        stroke="#8a6c3a"
+                        stroke-width="1.5"
+                        fill="none"
+                    />
+                    <path
+                        d="M6 34 L6 10 Q6 6 10 6 L34 6"
+                        stroke="#b8975a"
+                        stroke-width="0.75"
+                        fill="none"
+                    />
+                    <circle cx="8" cy="8" r="2.5" fill="#8a6c3a" />
+                    <path
+                        d="M2 20 L8 20 M20 2 L20 8"
+                        stroke="#8a6c3a"
+                        stroke-width="1"
+                    />
                 </svg>
             </div>
             <div class="corner br">
                 <svg viewBox="0 0 40 40" fill="none">
-                    <path d="M2 38 L2 8 Q2 2 8 2 L38 2" stroke="#8a6c3a" stroke-width="1.5" fill="none"/>
-                    <path d="M6 34 L6 10 Q6 6 10 6 L34 6" stroke="#b8975a" stroke-width="0.75" fill="none"/>
-                    <circle cx="8" cy="8" r="2.5" fill="#8a6c3a"/>
-                    <path d="M2 20 L8 20 M20 2 L20 8" stroke="#8a6c3a" stroke-width="1"/>
+                    <path
+                        d="M2 38 L2 8 Q2 2 8 2 L38 2"
+                        stroke="#8a6c3a"
+                        stroke-width="1.5"
+                        fill="none"
+                    />
+                    <path
+                        d="M6 34 L6 10 Q6 6 10 6 L34 6"
+                        stroke="#b8975a"
+                        stroke-width="0.75"
+                        fill="none"
+                    />
+                    <circle cx="8" cy="8" r="2.5" fill="#8a6c3a" />
+                    <path
+                        d="M2 20 L8 20 M20 2 L20 8"
+                        stroke="#8a6c3a"
+                        stroke-width="1"
+                    />
                 </svg>
             </div>
 
@@ -498,25 +592,47 @@
                     <div class="identity-row1">
                         <div class="field">
                             <span class="field-label">Character Name</span>
-                            <input class="field-line" type="text" autocomplete="off" />
+                            <input
+                                class="field-line"
+                                type="text"
+                                autocomplete="off"
+                            />
                         </div>
                         <div class="field">
                             <span class="field-label">Race / Species</span>
-                            <input class="field-line" type="text" autocomplete="off" />
+                            <input
+                                class="field-line"
+                                type="text"
+                                autocomplete="off"
+                            />
                         </div>
                         <div class="field">
                             <span class="field-label">Age</span>
-                            <input class="field-line" type="text" autocomplete="off" />
+                            <input
+                                class="field-line"
+                                type="text"
+                                autocomplete="off"
+                            />
                         </div>
                     </div>
                     <div class="identity-row2">
                         <div class="field">
-                            <span class="field-label">Appearance &amp; Personality</span>
-                            <textarea class="field-area" rows="3" autocomplete="off"></textarea>
+                            <span class="field-label"
+                                >Appearance &amp; Personality</span
+                            >
+                            <textarea
+                                class="field-area"
+                                rows="3"
+                                autocomplete="off"
+                            ></textarea>
                         </div>
                         <div class="field">
                             <span class="field-label">Background</span>
-                            <textarea class="field-area" rows="3" autocomplete="off"></textarea>
+                            <textarea
+                                class="field-area"
+                                rows="3"
+                                autocomplete="off"
+                            ></textarea>
                         </div>
                     </div>
                 </div>
@@ -525,77 +641,190 @@
             <!-- STATS -->
             <div class="section-title">
                 Core Stats
-                <span style="font-size: 8px; font-style: italic; letter-spacing: 0; text-transform: none; color: var(--ink-faint);">(1–10)</span>
+                <span
+                    style="
+                        font-size: 8px;
+                        font-style: italic;
+                        letter-spacing: 0;
+                        text-transform: none;
+                        color: var(--ink-faint);
+                    "
+                    >(1–10)</span
+                >
             </div>
             <div class="stats-grid">
                 <div class="stat-box">
                     <div class="stat-name">Strength</div>
-                    <div class="stat-score"><input type="text" maxlength="2" autocomplete="off" /></div>
+                    <div class="stat-score">
+                        <input type="text" maxlength="2" autocomplete="off" />
+                    </div>
                     <div class="stat-subtext">Melee · Lift ·<br />Grapple</div>
                 </div>
                 <div class="stat-box">
                     <div class="stat-name">Dexterity</div>
-                    <div class="stat-score"><input type="text" maxlength="2" autocomplete="off" /></div>
-                    <div class="stat-subtext">Ranged · Dodge ·<br />Stealth</div>
+                    <div class="stat-score">
+                        <input type="text" maxlength="2" autocomplete="off" />
+                    </div>
+                    <div class="stat-subtext">
+                        Ranged · Dodge ·<br />Stealth
+                    </div>
                 </div>
                 <div class="stat-box">
                     <div class="stat-name">Mind</div>
-                    <div class="stat-score"><input type="text" maxlength="2" autocomplete="off" /></div>
-                    <div class="stat-subtext">Magic · Knowledge ·<br />Perception</div>
+                    <div class="stat-score">
+                        <input type="text" maxlength="2" autocomplete="off" />
+                    </div>
+                    <div class="stat-subtext">
+                        Magic · Knowledge ·<br />Perception
+                    </div>
                 </div>
                 <div class="stat-box">
                     <div class="stat-name">Charisma</div>
-                    <div class="stat-score"><input type="text" maxlength="2" autocomplete="off" /></div>
-                    <div class="stat-subtext">Persuade · Trick ·<br />Inspire</div>
+                    <div class="stat-score">
+                        <input type="text" maxlength="2" autocomplete="off" />
+                    </div>
+                    <div class="stat-subtext">
+                        Persuade · Trick ·<br />Inspire
+                    </div>
                 </div>
             </div>
 
             <!-- VITALS -->
-            <div style="margin-bottom: 14px;">
+            <div style="margin-bottom: 14px">
                 <div class="section-title">Vitals</div>
                 <div class="vitals-row">
                     <div class="vital-box">
                         <div class="vital-label">Hit Points</div>
                         <div class="vital-formula">10 + (STR × 2)</div>
-                        <div style="display: flex; gap: 5px; align-items: center; margin-top: 2px;">
+                        <div
+                            style="
+                                display: flex;
+                                gap: 5px;
+                                align-items: center;
+                                margin-top: 2px;
+                            "
+                        >
                             <div>
-                                <div style="font-size: 7px; color: var(--ink-faint); text-align: center; margin-bottom: 1px;">Max</div>
-                                <div class="vital-big" style="width: 48px;"><input type="text" maxlength="3" autocomplete="off" /></div>
+                                <div
+                                    style="
+                                        font-size: 7px;
+                                        color: var(--ink-faint);
+                                        text-align: center;
+                                        margin-bottom: 1px;
+                                    "
+                                >
+                                    Max
+                                </div>
+                                <div class="vital-big" style="width: 48px">
+                                    <input
+                                        type="text"
+                                        maxlength="3"
+                                        autocomplete="off"
+                                    />
+                                </div>
                             </div>
-                            <div style="font-size: 9px; color: var(--ink-faint);">/</div>
-                            <div style="flex: 1;">
-                                <div style="font-size: 7px; color: var(--ink-faint); text-align: center; margin-bottom: 1px;">Current</div>
-                                <div class="vital-big"><input type="text" maxlength="3" autocomplete="off" /></div>
+                            <div
+                                style="font-size: 9px; color: var(--ink-faint)"
+                            >
+                                /
+                            </div>
+                            <div style="flex: 1">
+                                <div
+                                    style="
+                                        font-size: 7px;
+                                        color: var(--ink-faint);
+                                        text-align: center;
+                                        margin-bottom: 1px;
+                                    "
+                                >
+                                    Current
+                                </div>
+                                <div class="vital-big">
+                                    <input
+                                        type="text"
+                                        maxlength="3"
+                                        autocomplete="off"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="vital-box">
                         <div class="vital-label">Magic Points</div>
-                        <div class="vital-formula">4 + (MND × 2)</div>
-                        <div style="display: flex; gap: 5px; align-items: center; margin-top: 2px;">
+                        <div class="vital-formula">5 + (MND × 2)</div>
+                        <div
+                            style="
+                                display: flex;
+                                gap: 5px;
+                                align-items: center;
+                                margin-top: 2px;
+                            "
+                        >
                             <div>
-                                <div style="font-size: 7px; color: var(--ink-faint); text-align: center; margin-bottom: 1px;">Max</div>
-                                <div class="vital-big" style="width: 48px;"><input type="text" maxlength="2" autocomplete="off" /></div>
+                                <div
+                                    style="
+                                        font-size: 7px;
+                                        color: var(--ink-faint);
+                                        text-align: center;
+                                        margin-bottom: 1px;
+                                    "
+                                >
+                                    Max
+                                </div>
+                                <div class="vital-big" style="width: 48px">
+                                    <input
+                                        type="text"
+                                        maxlength="2"
+                                        autocomplete="off"
+                                    />
+                                </div>
                             </div>
-                            <div style="font-size: 9px; color: var(--ink-faint);">/</div>
-                            <div style="flex: 1;">
-                                <div style="font-size: 7px; color: var(--ink-faint); text-align: center; margin-bottom: 1px;">Current</div>
-                                <div class="vital-big"><input type="text" maxlength="2" autocomplete="off" /></div>
+                            <div
+                                style="font-size: 9px; color: var(--ink-faint)"
+                            >
+                                /
+                            </div>
+                            <div style="flex: 1">
+                                <div
+                                    style="
+                                        font-size: 7px;
+                                        color: var(--ink-faint);
+                                        text-align: center;
+                                        margin-bottom: 1px;
+                                    "
+                                >
+                                    Current
+                                </div>
+                                <div class="vital-big">
+                                    <input
+                                        type="text"
+                                        maxlength="2"
+                                        autocomplete="off"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="vital-box">
                         <div class="vital-label">Defense</div>
                         <div class="vital-formula">5 + DEX (no armor)</div>
-                        <div style="margin-top: 2px;" class="vital-big">
-                            <input type="text" maxlength="2" autocomplete="off" />
+                        <div style="margin-top: 2px" class="vital-big">
+                            <input
+                                type="text"
+                                maxlength="2"
+                                autocomplete="off"
+                            />
                         </div>
                     </div>
                     <div class="vital-box">
                         <div class="vital-label">Level</div>
                         <div class="vital-formula">Max 10</div>
-                        <div style="margin-top: 2px;" class="vital-big">
-                            <input type="text" maxlength="2" autocomplete="off" />
+                        <div style="margin-top: 2px" class="vital-big">
+                            <input
+                                type="text"
+                                maxlength="2"
+                                autocomplete="off"
+                            />
                         </div>
                     </div>
                 </div>
@@ -605,33 +834,131 @@
             <div class="main-columns">
                 <div>
                     <div class="section-title">Weapons</div>
-                    <div style="display: grid; grid-template-columns: 1fr 52px; gap: 6px; margin-bottom: 6px;">
+                    <div
+                        style="
+                            display: grid;
+                            grid-template-columns: 1fr 52px;
+                            gap: 6px;
+                            margin-bottom: 6px;
+                        "
+                    >
                         <div class="col-hdr left">Name</div>
                         <div class="col-hdr">Dmg</div>
                     </div>
                     <div class="weapon-rows">
-                        <div class="weapon-row"><input type="text" class="name-input" autocomplete="off" /><input type="text" autocomplete="off" /></div>
-                        <div class="weapon-row"><input type="text" class="name-input" autocomplete="off" /><input type="text" autocomplete="off" /></div>
-                        <div class="weapon-row"><input type="text" class="name-input" autocomplete="off" /><input type="text" autocomplete="off" /></div>
-                        <div class="weapon-row"><input type="text" class="name-input" autocomplete="off" /><input type="text" autocomplete="off" /></div>
+                        <div class="weapon-row">
+                            <input
+                                type="text"
+                                class="name-input"
+                                autocomplete="off"
+                            /><input type="text" autocomplete="off" />
+                        </div>
+                        <div class="weapon-row">
+                            <input
+                                type="text"
+                                class="name-input"
+                                autocomplete="off"
+                            /><input type="text" autocomplete="off" />
+                        </div>
+                        <div class="weapon-row">
+                            <input
+                                type="text"
+                                class="name-input"
+                                autocomplete="off"
+                            /><input type="text" autocomplete="off" />
+                        </div>
+                        <div class="weapon-row">
+                            <input
+                                type="text"
+                                class="name-input"
+                                autocomplete="off"
+                            /><input type="text" autocomplete="off" />
+                        </div>
                     </div>
-                    <div style="margin-top: 12px;">
+                    <div style="margin-top: 12px">
                         <div class="section-title">Spells</div>
-                        <div style="display: grid; grid-template-columns: 1fr 52px; gap: 6px; margin-bottom: 6px;">
+                        <div
+                            style="
+                                display: grid;
+                                grid-template-columns: 1fr 52px;
+                                gap: 6px;
+                                margin-bottom: 6px;
+                            "
+                        >
                             <div class="col-hdr left">Spell Name</div>
                             <div class="col-hdr">MP Cost</div>
                         </div>
                         <div class="spell-rows">
-                            <div class="spell-row"><input type="text" autocomplete="off" /><input type="text" class="mp-input" autocomplete="off" /></div>
-                            <div class="spell-row"><input type="text" autocomplete="off" /><input type="text" class="mp-input" autocomplete="off" /></div>
-                            <div class="spell-row"><input type="text" autocomplete="off" /><input type="text" class="mp-input" autocomplete="off" /></div>
-                            <div class="spell-row"><input type="text" autocomplete="off" /><input type="text" class="mp-input" autocomplete="off" /></div>
-                            <div class="spell-row"><input type="text" autocomplete="off" /><input type="text" class="mp-input" autocomplete="off" /></div>
-                            <div class="spell-row"><input type="text" autocomplete="off" /><input type="text" class="mp-input" autocomplete="off" /></div>
-                            <div class="spell-row"><input type="text" autocomplete="off" /><input type="text" class="mp-input" autocomplete="off" /></div>
-                            <div class="spell-row"><input type="text" autocomplete="off" /><input type="text" class="mp-input" autocomplete="off" /></div>
-                            <div class="spell-row"><input type="text" autocomplete="off" /><input type="text" class="mp-input" autocomplete="off" /></div>
-                            <div class="spell-row"><input type="text" autocomplete="off" /><input type="text" class="mp-input" autocomplete="off" /></div>
+                            <div class="spell-row">
+                                <input type="text" autocomplete="off" /><input
+                                    type="text"
+                                    class="mp-input"
+                                    autocomplete="off"
+                                />
+                            </div>
+                            <div class="spell-row">
+                                <input type="text" autocomplete="off" /><input
+                                    type="text"
+                                    class="mp-input"
+                                    autocomplete="off"
+                                />
+                            </div>
+                            <div class="spell-row">
+                                <input type="text" autocomplete="off" /><input
+                                    type="text"
+                                    class="mp-input"
+                                    autocomplete="off"
+                                />
+                            </div>
+                            <div class="spell-row">
+                                <input type="text" autocomplete="off" /><input
+                                    type="text"
+                                    class="mp-input"
+                                    autocomplete="off"
+                                />
+                            </div>
+                            <div class="spell-row">
+                                <input type="text" autocomplete="off" /><input
+                                    type="text"
+                                    class="mp-input"
+                                    autocomplete="off"
+                                />
+                            </div>
+                            <div class="spell-row">
+                                <input type="text" autocomplete="off" /><input
+                                    type="text"
+                                    class="mp-input"
+                                    autocomplete="off"
+                                />
+                            </div>
+                            <div class="spell-row">
+                                <input type="text" autocomplete="off" /><input
+                                    type="text"
+                                    class="mp-input"
+                                    autocomplete="off"
+                                />
+                            </div>
+                            <div class="spell-row">
+                                <input type="text" autocomplete="off" /><input
+                                    type="text"
+                                    class="mp-input"
+                                    autocomplete="off"
+                                />
+                            </div>
+                            <div class="spell-row">
+                                <input type="text" autocomplete="off" /><input
+                                    type="text"
+                                    class="mp-input"
+                                    autocomplete="off"
+                                />
+                            </div>
+                            <div class="spell-row">
+                                <input type="text" autocomplete="off" /><input
+                                    type="text"
+                                    class="mp-input"
+                                    autocomplete="off"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -639,23 +966,125 @@
                 <div>
                     <div class="section-title">Inventory</div>
                     <div class="inv-rows">
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
-                        <div class="inv-row"><input type="text" class="inv-input" autocomplete="off" /></div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="inv-row">
+                            <input
+                                type="text"
+                                class="inv-input"
+                                autocomplete="off"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -663,7 +1092,10 @@
             <!-- BOTTOM NOTES -->
             <div>
                 <div class="section-title">Notes</div>
-                <textarea class="lined-box" style="min-height: 120px;"></textarea>
+                <textarea
+                    class="lined-box"
+                    style="min-height: 120px"
+                ></textarea>
             </div>
         </div>
     </body>
