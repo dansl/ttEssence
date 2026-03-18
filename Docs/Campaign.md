@@ -63,7 +63,7 @@ The ruined watchtower rises from the mist ahead. Its walls are crumbled but the 
 
 The skeletons are positioned on rubble, shooting at range. Heroes who close the distance lose the archers' range advantage. A DEX check (difficulty medium) lets a hero sneak up before combat starts and get the drop on one skeleton.
 
-**Loot:** Nothing — skeletons don't carry gold. But one has a strange symbol carved into its ribcage: Morra's mark. A MND check (difficulty medium) identifies it as a witch's binding rune.
+**Loot:** 5 gold and one Mana Potion. One skeleton has a strange symbol carved into its ribcage: Morra's mark. A MND check (difficulty medium) identifies it as a witch's binding rune.
 
 ### Scene 5 — The Tower Interior
 
