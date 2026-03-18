@@ -15,8 +15,8 @@ Magic = MND
 | Weapon | Damage | Requirement | Type |
 |---|---|---|---|
 | Bare Hands | 1 | None | Melee |
-| Wand | 1 | None | Melee |
-| Staff | d4 | None | Magic |
+| Wand | d2 | None | Magic |
+| Staff | d2 | None | Magic |
 | Dagger | d4 | None | Melee |
 | Sling | d4 | None | Ranged | 
 | Shortsword | d6 | STR 3+ | Melee |
