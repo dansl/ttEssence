@@ -246,6 +246,8 @@ Description: What does it look like? What does it want?
 
 > **Tip:** Start with less HP than you think you need. Players feel great defeating a monster in 4–5 rounds. A long drag kills the momentum.
 
+See [Bestiary Examples](/Docs/Bestiary.md)
+
 ---
 
 ## GM Tips
