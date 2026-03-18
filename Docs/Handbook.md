@@ -99,25 +99,11 @@ If a second hero assists, both roll d20 + the relevant stat and take the **highe
 
 ---
 
-## Attacks, Weapons & Equipment
+## Weapons & Equipment
 
-When attacking, just like a Check Roll, you roll a d20 then add whatever the weapon requires (ex: a sword might use STR, bow use DEX and Spell use MND). Looks at the enemies Defence and if you beat that amount, you roll for damage.
+Some weapons or equipment require a minimum stat to use effectively. A Hero using a weapon below its requirement means they have a **disadvantage roll** — The Hero rolls the d20 twice and take the lower result.
 
-Example: A Fighter with STR 4 and a Shortsword is fighting a Goblin with 11 Defence. He rolls a d20 and gets 8, then add the STR 4 and you get 12, which is higher than the 11 neeed to hit the Goblin. Now take the Shortsword's d6 and roll to see how much damage you dealt.
-
-Some weapons require a minimum stat to use effectively. A Hero using a weapon below its requirement means **disadvantage** — The Hero rolls the d20 twice and take the lower result.
-
-| Weapon | Damage | Requirement |
-|---|---|---|
-| Bare Hands | 1 | None |
-| Staff / Wand | d4 | None |
-| Dagger / Sling | d4 | None |
-| Shortsword / Hand axe | d6 | STR 3+ |
-| Shortbow | d6 | DEX 3+ |
-| Longsword / Mace | d8 | STR 4+ |
-| Longbow | d8 | DEX 4+ |
-| Greatsword / Warhammer | d10 | STR 5+ |
-| Heavy crossbow | d10 | DEX 5+ |
+See [Weapon Examples](/Docs/Weapons.md)
 
 ---
 
@@ -125,7 +111,7 @@ Some weapons require a minimum stat to use effectively. A Hero using a weapon be
 
 ### Initiative
 
-At the start of combat, everyone — heroes and monsters alike — rolls a **d20** + DEX. Turns proceed from **highest to lowest**. Ties: Heroes go before monsters; tied heroes could play "Rock, Paper, Scissors" to break the tie, or just roll again.
+At the start of combat, everyone — heroes and monsters alike — rolls a **d20**. Turns proceed from **highest to lowest**. Ties: Heroes go before monsters; tied heroes could play "Rock, Paper, Scissors" to break the tie, or just roll again.
 
 ### Your Turn
 
@@ -133,26 +119,27 @@ Each turn you may do all of the following:
 
 1. **Move** — travel to anywhere nearby you could reasonably reach. Split your move before and after your action if you like.
 2. **Action** — attack, cast a spell, use an item, help an ally, or do something creative.
-3. **Quick Action** — one small free thing: draw or stow a weapon, shout a warning, drop an object.
 
 ### Making an Attack
 
-Roll **d20 + STR** (melee) or **d20 + DEX** (ranged) or **d20 + MND** (spell). Meet or beat the target's **Defense score** to hit. On a hit, roll your weapon's damage die and subtract from their HP.
+Depending on the weapon or action, you roll **d20 + STR** (Melee) or **d20 + DEX** (Ranged) or **d20 + MND** (Spell). Meet or beat the target's **Defense score** to hit. On a hit, roll your weapon or action's damage die and subtract from their HP.
 
-> *Example: A Hero (DEX 3) fires a shortbow at a goblin (Defense 11). She rolls d20 + 3 DEX = 16. Hit! She rolls d6 and gets 4 — the goblin takes 4 damage.*
+Example: A Hero (DEX 3) fires a shortbow at a goblin (Defense 11). They roll a d20 and get 9 + 3 DEX = 12. Hit! She rolls d6 and gets 4 — the goblin takes 4 damage.
 
 ### Short & Long Rests
 
+In between battles and events you can Short or Long rest.
+
 - **Short rest** (a brief break) — restore **STR × 2 HP** and **MND × 1 MP**.
-- **Long rest** (a full night's sleep) — restore **all HP and all MP**, and learn one new thing about the world.
+- **Long rest** (a full night's sleep) — restore **all HP and all MP**, possibility to get attacked or robbed while resting.
 
 ---
 
 ## Magic
 
-### Anyone Can Learn Spells
+### Learn Spells
 
-Every hero can learn magic. Your **Mind stat (MND)** determines which spell tiers you can access. Higher MND unlocks more powerful spells. If your main goal is to be a spell user, you will want to focus on adding more to your MND Skill since it helps on your Spell Attack Rolls.
+Every hero can learn magic. Your **Mind stat (MND)** determines which spell tiers you can access. Higher MND unlocks more powerful spells. If your main goal is to be a spell user, you will want to focus on adding more to your MND Skill since it helps get better spells and more successful on your Spell Attack Rolls.
 
 ### Magic attack
 
@@ -162,17 +149,17 @@ Roll a d20 + MND stat against the enemies Defense, then depending on the spell, 
 
 > **MP = 4 + (MND × 2)**
 
-A hero with MND 1 has 6 Magic Points (MP). A hero with MND 5 has 14 MP. 
+Example: A hero with MND 1 has 6 Magic Points (MP). A hero with MND 5 has 14 MP.
 
 ### Recover MP
-All MP is restored after a long rest. You can also use Mana Potions or other items to restore MP.
+MP is restored after a short or long rest. You can also use potions or other items to restore MP.
 
 ### Spell Tiers
 
 | Tier | Name | Mind Req. | MP Cost | Damage |
 |---|---|---|---|---|---|
-| 0 | Cantrip | MND 1+ | 0 MP | none |
-| 1 | Minor | MND 2+ | 1 MP | d4+1 |
+| 0 | Cantrip | MND 1+ | 1 MP | none |
+| 1 | Minor | MND 2+ | 1 MP | d4 |
 | 2 | Moderate | MND 3+ | 2 MP | d6 |
 | 3 | Major | MND 4+ | 3 MP | d8 |
 | 4 | Legendary | MND 5+ | 4 MP | d10 |
@@ -183,20 +170,19 @@ Heroes start knowing **2 spells** from any tier they qualify for according to th
 
 See [Spells Examples](/Docs/Spells.md)
 
-> *A fighter with MND 1 finds a Scroll of Fireball (Tier 2 — MND 3+). They can't learn it yet — but it's great motivation to invest in Mind when they level up.*
+Example: A fighter with MND 1 finds a Scroll of Fireball (Tier 2 — MND 3+). They can't learn it yet — but it's great motivation to invest in Mind when they level up.*
 
 ---
 
 ## Leveling Up
 
-This game uses **milestone leveling**. The GM awards a level when the party reaches a meaningful story moment — not for counting experience points.
+This game uses **milestone leveling**. The GM awards a level when the party reaches a meaningful story moment.
 
 ### When to Award a Level
 
 - Completing a major quest
 - Defeating a significant villain
 - Unlocking a long-sought secret
-- Earning the trust of a powerful faction
 - Surviving against overwhelming odds
 - Reaching the end of a story chapter
 
@@ -204,7 +190,7 @@ This game uses **milestone leveling**. The GM awards a level when the party reac
 
 ### Level Progression
 
-| Level | Stat Points | New Spells | Special |
+| Level | Stat Points | New Spells | Info |
 |---|---|---|---|
 | 1 | 10 to start | 2 starting spells | Stat cap at 5 |
 | 2 | +2 | +1 |  |
@@ -231,7 +217,7 @@ Actions:
 · [Attack name] — roll d20+[stat] vs Defense. Hit: [damage]
 · [Special ability] — [effect, frequency]
 ─────────────────────────────────
-Flavor: One sentence. What does it look like? What does it want?
+Description: One sentence. What does it look like? What does it want?
 ```
 
 ### Monster Tiers
@@ -241,18 +227,10 @@ Flavor: One sentence. What does it look like? What does it want?
 | Minion | Level 1–2 | Weak alone, dangerous in groups |
 | Standard | Level 3–4 | A solid fight for a party of 4 |
 | Elite | Level 5–6 | A tough solo threat or mid-boss |
-| Boss | Level 7–8 | Main villain; acts twice per round |
-| Legendary | Level 9+ | World-shaking; three phases |
+| Boss | Level 7–8 | Villain of a section |
+| Legendary | Level 9+ | Final Boss to a story |
 
 ---
-
-### Boss & Legendary Special Rules
-
-| Rule | Description |
-|---|---|
-| Two actions | Bosses take two full actions per turn instead of one |
-| Legendary react | Once per round, when hit, the boss may take one quick reaction before the damage lands |
-| Phases | Legendary monsters change behavior at 2/3 and 1/3 HP — gaining new abilities each time |
 
 ### Quick Monster Creation
 
@@ -276,16 +254,6 @@ Flavor: One sentence. What does it look like? What does it want?
 - **Describe the world with senses.** Not just what they see — what they smell, hear, feel underfoot.
 - **Pause and check in.** Especially with younger players — ask "is everyone having fun?" after tough scenes.
 
-### Milestone Pacing
-
-| Campaign Length | Sessions | Level Arc | Milestone Frequency |
-|---|---|---|---|
-| Short | 3–5 | Levels 1→3 | Every 1–2 sessions |
-| Medium | 8–15 | Levels 1→5 | Every 2–3 sessions |
-| Long | 16+ | Levels 1→6+ | Every 3–4 sessions |
-
-> **Tip:** Tell players "you're getting close to leveling up" before a big moment. It raises the stakes without spelling out exactly when.
-
 ### Adjusting Difficulty
 
 - **Too easy?** Add one extra minion, give the boss the Legendary React, or have enemies use smarter tactics (flank, retreat, call for help).
@@ -300,11 +268,11 @@ Flavor: One sentence. What does it look like? What does it want?
 
 | What you're doing | Roll | Beat |
 |---|---|---|
-| Skill check | d20 + relevant stat | Difficulty (8 / 12 / 16 / 20) |
-| Attack | d20 + STR or DEX | Target's Defense score |
+| Skill check | d20 + relevant stat | GM decides difficulty |
+| Weapon Attack | d20 + STR or DEX | Target's Defense score |
 | Spell attack | d20 + MND | Target's Defense score |
-| Spell check | d20 + MND | Spell tier difficulty (10 / 12 / 14 / 18) |
-| Initiative | d20 | — (highest goes first) |
+| Spell check | d20 + MND | GM decides difficulty |
+| Initiative | d20 | highest goes first |
 
 ### Key Numbers
 
@@ -315,13 +283,3 @@ Flavor: One sentence. What does it look like? What does it want?
 | 5 + DEX | Defense (no armor) |
 | STR × 2 | HP restored on short rest |
 | MND × 1 | MP restored on short rest |
-
-### The One-Sentence Rules
-
-1. Roll d20 + stat, beat the difficulty number.
-2. Attacks beat Defense to hit; damage reduces HP.
-3. Anyone can cast spells — higher Mind unlocks stronger ones.
-4. Level up at story milestones, add stat points, learn new spells.
-5. When in doubt, make it fun and move on.
-
----

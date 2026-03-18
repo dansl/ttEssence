@@ -1,14 +1,14 @@
 # Spells Examples
 ### Use these as a starting point for your own spells
 
-**Tier 0 — Cantrips** *(0 MP)*
+**Tier 0 — Cantrips** *(1 MP)*
 - **Night Light** — Conjure a small flame or light
 - **Ventriloquism** — Create a sound or voice nearby
 - **Gust** — Push a small object with a gust of wind
 - **Telepath** — Speak telepathically to someone you can see
 
 **Tier 1 — Minor Spells — MND 2+** *(1 MP)* 
-- **Magic Missile** — deal d4+1 force damage
+- **Magic Missile** — deal d4 force damage
 - **Healing Touch** — restore d4 HP to one creature you touch
 - **Shield** — gain Defense +3 for 2 turns
 - **Charm** — one creature treats you as a friend for 1 turn
