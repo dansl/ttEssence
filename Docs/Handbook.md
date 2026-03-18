@@ -263,7 +263,7 @@ When the heroes defeat the monster, reward them with items or gold. If the monst
 
 ## Starting a Campaign 
 
-Make up your own story with fun characters, strong bosses, mysteries to solve, and quests to complete. Make it silly, scary, mysterious, and fun! Maybe ask the players what they want to fight, or just keep it a mystery, then tweak the detials before you begin. The only limit it your imagination!
+Make up your own story with fun characters, strong bosses, mysteries to solve, and quests to complete. Make it silly, scary, mysterious, and fun! Maybe ask the players what they want to fight, or just keep it a mystery, then tweak the detials before you begin. The only limit is your imagination!
 
 See [Campaign Examples](/Docs/Campaign.md)
 
