@@ -33,7 +33,7 @@ There are no wrong ways to play. If a rule ever slows down the fun, ignore it. I
 
 [Items Examples](Docs/Items.md)
 
-[Campaign Examples](Docs/Campaign.md) (Coming Soon)
+[Campaign Examples](Docs/Campaign.md)
 
 ## License
 - **Rules & Content:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
