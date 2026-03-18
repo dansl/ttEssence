@@ -36,7 +36,7 @@ The heroes travel into the swamp. The path is muddy, the air smells of rot, and 
 
 The goblins aren't working for Morra — they just saw some easy targets. After the fight, the heroes find a crude map on one of the goblins showing the watchtower's location, crudely drawn but useful.
 
-> **GM tip:** Let the heroes try creative things here. If someone wants to intimidate the goblins into running (CHA check difficulty easy or medium), let them try. One goblin fleeing is a fun outcome.
+> **GM tip:** Let the heroes try creative things here. If someone wants to intimidate the goblins into running (CHA check difficulty easy or medium), let them try. If they are struggling to beat them, make it so after 1 dies, the rest run away.
 
 **Loot:** 4 gold, one Health Potion
 

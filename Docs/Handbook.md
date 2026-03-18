@@ -276,6 +276,7 @@ See [Campaign Examples](/Docs/Campaign.md)
 - **Say yes more than no.** If a player has a creative idea, let them try it and roll for it.
 - **Describe the world with senses.** Not just what they see — what they smell, hear, feel underfoot.
 - **Pause and check in.** Especially with younger players — ask "is everyone having fun?" after tough scenes.
+- **Grab a Notepad** You will need to write lots of things down, like the battle order, monsters current health, or reminders about spells or effects.
 
 ### Adjusting Difficulty
 

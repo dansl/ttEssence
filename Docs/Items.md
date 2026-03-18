@@ -33,7 +33,7 @@ Held items take up a hand slot and must be actively carried to benefit from them
 | Lucky Charm | 5g | Once per session, reroll any one dice roll and take the higher result. |
 | Thieves' Tools | 3g | Required to attempt picking locks or disarming traps. |
 | Spyglass | 4g | See clearly at long distances. +2 to any check involving spotting or scouting. |
-| Grapling Hook | 5g | Let's you reach most unreachable locations with ease. |
+| Grapling Hook | 4g | Let's you reach most unreachable locations with ease. |
 
 ---
 
