@@ -7,7 +7,7 @@ A simplified Tabletop Role-Playing Game (ttRPG) ruleset. Made to be as simple an
 
 ## Why make this?
 
-Many Tabletop RPGs can get complicated, espesially for beginners or young audiences... ttEssence takes the essence of complicated rulesets and makes them as simple as possible, so anyone can jump in and play a ttRPG without feeling overwhelmed.
+Many Tabletop RPGs can get complicated, especially for beginners or young audiences... ttEssence takes the essence of complicated rulesets and makes them as simple as possible, so anyone can jump in and play a ttRPG without feeling overwhelmed.
 
 ---
 
@@ -31,7 +31,7 @@ There are no wrong ways to play. If a rule ever slows down the fun, ignore it. I
 
 [Armor Examples](Docs/Armor.md)
 
-[Items Examples](Docs/Items.md) (Coming Soon)
+[Items Examples](Docs/Items.md)
 
 [Campaign Examples](Docs/Campaign.md) (Coming Soon)
 
