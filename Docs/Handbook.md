@@ -1,21 +1,5 @@
-# ttEssence
-### Tabletop RPG Essence, a simplified Tabletop RPG ruleset. Made to be simple and accessible for all ages and for anyone who just wants to enjoy a story and roll some dice.
-
-> This is a work in progress and I'm always open to suggestions and feedback via [Issues](https://github.com/dansl/ttEssence/issues) page!
-
----
-
-## Why make this?
-
-Many Tabletop RPGs can get complicated, espesially for beginners or young audiences... ttEssence takes the essence of complicated rulesets and makes them as simple as possible, so anyone can jump in and play a tabletop RPG without feeling too overwhelmed.
-
----
-
-## How To Start?
-
-Requires at least 2 players. One player is the **Guide** — they describe the world, control monsters, and set the scene. Everyone else plays a **Hero** — a brave adventurer exploring that world. Together you tell a story, and dice decide what happens when things get uncertain or a battle arises.
-
-There are no wrong ways to play. If a rule ever slows down the fun, ignore it. If you want more of a challenge, tweak it!
+# ttEssence - Handbook
+A simplified Tabletop Role-Playing Game (ttRPG) ruleset. Made to be as simple and accessible as possible for people who just want to enjoy a fun story and roll some dice along the way!
 
 ---
 
@@ -57,7 +41,7 @@ See the [Character Sheet](/Docs/character-sheet.png). Start by distributing **10
 
 ## Hit Points & Defense
 
-**Hit Points (HP)** represent how much damage your hero can take before going down. Start with 10HP
+**Hit Points (HP)** represent how much damage your hero can take before getting knocked out.
 
 > **HP = 10 + (STR × 2)**
 
@@ -72,11 +56,13 @@ Example: A hero with STR 2 starts with **14 HP**. A hero with STR 4 starts with 
 | Medium armor | 9 + DEX — requires STR 4 |
 | Heavy armor | 11 + DEX — requires STR 6 |
 
+Example: A hero with DEX 4 and No Armor has 9 Defence. A hero with DEX 2 and Light Armor also has 9 Defence.
+
 ### When HP Hits 0
 
 Your hero is **knocked out**. They can't act. An ally can spend their action to revive them, restoring 1d6 HP. If no one helps by the end of the next round, the hero wakes up on their own with 1 HP — bruised but alive.
 
-> **Heroes never permanently die by default.** For groups who want higher stakes, discuss changing the rule before play begins.
+> **Heroes never permanently die by default.** For groups who want higher stakes, discuss changing this rule before play begins.
 
 ---
 
@@ -84,9 +70,9 @@ Your hero is **knocked out**. They can't act. An ally can spend their action to 
 
 ### The Core Roll
 
-When a hero tries something risky or uncertain, the Guide decides how difficult the action will be using chart below. Heroes roll a **d20** and adds the relevant stat (ex: might add DEX for a jump action or STR for pulling/pushing something). Meet or beat the **difficulty number** to succeed.
+When a hero tries something risky or uncertain, the GM decides how difficult the action will be using chart below. Heroes roll a **d20** and adds the relevant stat (ex: add DEX for a jump action or STR for pulling/pushing something). Meet or beat the **difficulty number** to succeed at the task.
 
-> *Example: Hero needs to jump over an easy gap, they have 3 DEX and rolled a 5 with a d20. They successfully met the 8 requirement and make the jump! If they had rolled less then 5 and failed, then the Guide decides what happens, maybe they take damage or maybe another player helps them by rolling another check!*
+Example: Hero needs to jump over an easy gap, they rolled a 5 with a d20 and have 3 DEX. They successfully met the 8 requirement and make the jump! If they had rolled less then 5 and failed, then the GM decides what happens, maybe they take damage or maybe another player helps them by rolling another check!
 
 | Difficulty | Number | Example |
 |---|---|---|
@@ -104,7 +90,7 @@ When a hero tries something risky or uncertain, the Guide decides how difficult 
 
 ### Natural 20 & Natural 1
 
-- **Roll exactly 20** — Critical success! You succeed spectacularly. The Guide could even give bonus damage or bonus actions.
+- **Roll exactly 20** — Critical success! You succeed spectacularly. The GM could even give bonus damage or bonus actions.
 - **Roll exactly 1** — Complication! You fail, and something unexpected also goes wrong. Keep it surprising, not punishing.
 
 ### Helping a Friend
@@ -113,12 +99,18 @@ If a second hero assists, both roll d20 + the relevant stat and take the **highe
 
 ---
 
-## Weapons & Equipment
+## Attacks, Weapons & Equipment
+
+When attacking, just like a Check Roll, you roll a d20 then add whatever the weapon requires (ex: a sword might use STR, bow use DEX and Spell use MND). Looks at the enemies Defence and if you beat that amount, you roll for damage.
+
+Example: A Fighter with STR 4 and a Shortsword is fighting a Goblin with 11 Defence. He rolls a d20 and gets 8, then add the STR 4 and you get 12, which is higher than the 11 neeed to hit the Goblin. Now take the Shortsword's d6 and roll to see how much damage you dealt.
 
 Some weapons require a minimum stat to use effectively. A Hero using a weapon below its requirement means **disadvantage** — The Hero rolls the d20 twice and take the lower result.
 
 | Weapon | Damage | Requirement |
 |---|---|---|
+| Bare Hands | 1 | None |
+| Staff / Wand | d4 | None |
 | Dagger / Sling | d4 | None |
 | Shortsword / Hand axe | d6 | STR 3+ |
 | Shortbow | d6 | DEX 3+ |
@@ -126,7 +118,6 @@ Some weapons require a minimum stat to use effectively. A Hero using a weapon be
 | Longbow | d8 | DEX 4+ |
 | Greatsword / Warhammer | d10 | STR 5+ |
 | Heavy crossbow | d10 | DEX 5+ |
-| Staff / Wand | d4 | None |
 
 ---
 
@@ -161,67 +152,44 @@ Roll **d20 + STR** (melee) or **d20 + DEX** (ranged) or **d20 + MND** (spell). M
 
 ### Anyone Can Learn Spells
 
-Every hero can learn magic. Your **Mind stat** determines which spell tiers you can access. Higher Mind unlocks more powerful spells.
+Every hero can learn magic. Your **Mind stat (MND)** determines which spell tiers you can access. Higher MND unlocks more powerful spells. If your main goal is to be a spell user, you will want to focus on adding more to your MND Skill since it helps on your Spell Attack Rolls.
+
+### Magic attack
+
+Roll a d20 + MND stat against the enemies Defense, then depending on the spell, use another die to calculate damage.
 
 ### Magic Points
 
 > **MP = 4 + (MND × 2)**
 
-A hero with MND 1 has 6 MP. A hero with MND 5 has 14 MP. All MP is restored after a long rest.
+A hero with MND 1 has 6 Magic Points (MP). A hero with MND 5 has 14 MP. 
+
+### Recover MP
+All MP is restored after a long rest. You can also use Mana Potions or other items to restore MP.
 
 ### Spell Tiers
 
-| Tier | Name | Mind Req. | MP Cost | Difficulty |
-|---|---|---|---|---|
-| 0 | Cantrip | MND 1+ | 0 MP | Always succeeds |
-| 1 | Minor | MND 1+ | 1 MP | Roll MND vs 10 |
-| 2 | Moderate | MND 4+ | 2 MP | Roll MND vs 12 |
-| 3 | Major | MND 6+ | 3 MP | Roll MND vs 14 |
-| 4 | Legendary | MND 8+ | 4–5 MP | Roll MND vs 18 |
-
-### Example Spells
-
-**Tier 0 — Cantrips** *(free, always work)*
-- Conjure a small flame or light
-- Create a sound or voice nearby
-- Push a small object with a gust of wind
-- Speak telepathically to someone you can see
-
-**Tier 1 — Minor Spells** *(1 MP)*
-- **Magic Missile** — deal d6 force damage, no roll to hit
-- **Healing Touch** — restore 1d6 HP to one creature you touch
-- **Shield** — gain Defense +3 until the start of your next turn
-- **Charm** — one creature treats you as a friend for 1 minute
-
-**Tier 2 — Moderate Spells** *(2 MP)*
-- **Fireball** — deal 2d6 fire damage to all creatures in an area
-- **Web** — trap up to 3 creatures in place (STR check difficulty 14 to break free)
-- **Invisibility** — become unseen for up to 1 hour or until you attack
-- **Levitate** — lift an object or willing creature into the air
-
-**Tier 3 — Major Spells** *(3 MP)*
-- **Lightning Bolt** — deal 3d6 lightning damage in a line
-- **Fly** — one creature can fly for 1 hour
-- **Revive** — restore a knocked-out ally to full HP
-- **Dominate** — control a creature's actions for 1 round
-
-**Tier 4 — Legendary Spells** *(4–5 MP)*
-- **Meteor Strike** — deal 4d10 fire damage to a huge area
-- **Stop Time** — freeze all other creatures for 1 round
-- **Raise the Fallen** — bring a dead creature back to life
-- **Reshape** — permanently alter a section of terrain
+| Tier | Name | Mind Req. | MP Cost | Damage |
+|---|---|---|---|---|---|
+| 0 | Cantrip | MND 1+ | 0 MP | none |
+| 1 | Minor | MND 2+ | 1 MP | d4+1 |
+| 2 | Moderate | MND 3+ | 2 MP | d6 |
+| 3 | Major | MND 4+ | 3 MP | d8 |
+| 4 | Legendary | MND 5+ | 4 MP | d10 |
 
 ### Learning Spells
 
-Heroes start knowing **3 spells** from any tier they qualify for. Each level-up, learn **1 new spell**. Spells can also be found on **scrolls** during adventures — a great treasure reward.
+Heroes start knowing **2 spells** from any tier they qualify for according to their MND stat. Each level-up, can learn **1 new spell**. Spells can also be found on **scroll items** during adventures.
 
-> *A fighter with MND 1 finds a Scroll of Fireball (Tier 2). They can't learn it yet — but it's great motivation to invest in Mind when they level up.*
+See [Spells Examples](/Docs/Spells.md)
+
+> *A fighter with MND 1 finds a Scroll of Fireball (Tier 2 — MND 3+). They can't learn it yet — but it's great motivation to invest in Mind when they level up.*
 
 ---
 
 ## Leveling Up
 
-This game uses **milestone leveling**. The Guide awards a level when the party reaches a meaningful story moment — not for counting experience points.
+This game uses **milestone leveling**. The GM awards a level when the party reaches a meaningful story moment — not for counting experience points.
 
 ### When to Award a Level
 
@@ -300,7 +268,7 @@ Flavor: One sentence. What does it look like? What does it want?
 
 ---
 
-## Guide Tips
+## GM Tips
 
 ### Running the Game
 
