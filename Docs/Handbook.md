@@ -49,7 +49,7 @@ Each hero will start with 10 Gold, which they can then use to buy gear to help t
 
 > Example: A hero with STR 2 starts with **14 HP**. A hero with STR 4 starts with **18 HP**.
 
-**Defense** is the number attackers must meat or beat by rolling a d20 to hit you.
+**Defense** is the number attackers must meet or beat by rolling a d20 to hit you.
 
 | Type | Defense Score |
 |---|---|
