@@ -1,17 +1,19 @@
 # ttEssence
-### Tabletop Essence, a simplified Tabletop RPG ruleset. Made to be simple and accessible for all ages and anyone who just wants to enjoy a story and roll some dice.
+### Tabletop RPG Essence, a simplified Tabletop RPG ruleset. Made to be simple and accessible for all ages and for anyone who just wants to enjoy a story and roll some dice.
+
+> This is a work in progress and I'm always open to suggestions and feedback via [Issues](https://github.com/dansl/ttEssence/issues) page!
 
 ---
 
-## What Is This?
+## Why make this?
 
-Many Tabletop RPGs can get complicated... ttEssence takes the essence of complicated rulesets and makes them as simple as possible, so anyone can jump in and play a tabletop RPG without feeling too overwhelmed.
+Many Tabletop RPGs can get complicated, espesially for beginners or young audiences... ttEssence takes the essence of complicated rulesets and makes them as simple as possible, so anyone can jump in and play a tabletop RPG without feeling too overwhelmed.
 
 ---
 
 ## How To Start?
 
-One player is the **Guide** — they describe the world, control monsters, and set the scene. Everyone else plays a **Hero** — a brave adventurer exploring that world. Together you tell a story, and dice decide what happens when things get uncertain or a battle arises.
+Requires at least 2 players. One player is the **Guide** — they describe the world, control monsters, and set the scene. Everyone else plays a **Hero** — a brave adventurer exploring that world. Together you tell a story, and dice decide what happens when things get uncertain or a battle arises.
 
 There are no wrong ways to play. If a rule ever slows down the fun, ignore it. If you want more of a challenge, tweak it!
 
@@ -23,10 +25,10 @@ Every hero/monster has four stats rated from **1 to 10**.
 
 | Stat | Abbrev. | What It Covers |
 |---|---|---|
-| Strength | STR | Melee attacks, lifting, grappling, resisting knockback |
+| Strength | STR | Melee attacks, lifting, grappling, resisting |
 | Dexterity | DEX | Ranged attacks, dodging, acrobatics, stealth |
 | Mind | MND | Magic, knowledge, spotting traps, detecting lies |
-| Charisma | CHA | Persuasion, deception, intimidation, inspiring allies |
+| Charisma | CHA | Persuasion, deception, intimidation, inspiring |
 
 ### Stat Ratings
 
@@ -40,13 +42,22 @@ Every hero/monster has four stats rated from **1 to 10**.
 
 ### Building a Hero
 
-See the Character Sheet. Start by distributing **10 points** across your four stats. Every stat must be at least **1**. To start, no stat can be above **5**, that cap rises to 10 at level 5.
+See the [Character Sheet](Docs/character-sheet.png). Start by distributing **10 points** across your four stats. Every stat must be at least **1**. To start, no stat can be above **5**, that cap rises to 10 at level 5.
+
+#### Example Characters
+
+| Type | STR | DEX | MND | CHA |
+|---|---|---|---|---|
+| Fighter | 4 | 2 | 1 | 3 |
+| Mage | 2 | 2 | 4 | 2 |
+| Archer | 3 | 4 | 1 | 2 |
+| Chad | 4 | 1 | 1 | 4 |
 
 ---
 
 ## Hit Points & Defense
 
-**Hit Points (HP)** represent how much damage your hero can take before going down.
+**Hit Points (HP)** represent how much damage your hero can take before going down. Start with 10HP
 
 > **HP = 10 + (STR × 2)**
 

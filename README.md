@@ -5,11 +5,15 @@ Tabletop Essence, a simplified Tabletop RPG ruleset. Made to be simple and acces
 
 [Character Sheet](Docs/character-sheet.png)
 
-[Example Weapons](Docs/Weapons.md)
+[Bestiary Examples](Docs/Bestiary.md)
 
-[Example Bestiary](Docs/Bestiary.md)
+[Weapons Examples](Docs/Weapons.md) (Coming Soon)
 
-[Example Campaign](Docs/Campaign.md) (Coming Soon)
+[Armor Examples](Docs/Armor.md) (Coming Soon)
+
+[Items Examples](Docs/Items.md) (Coming Soon)
+
+[Campaign Examples](Docs/Campaign.md) (Coming Soon)
 
 ## License
 - **Rules & Content:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
