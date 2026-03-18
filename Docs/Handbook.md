@@ -56,6 +56,8 @@ See the [Character Sheet](/Docs/character-sheet.png). Start by distributing **10
 | Medium armor | 9 + DEX — requires STR 4 |
 | Heavy armor | 11 + DEX — requires STR 6 |
 
+See [Armor Examples](/Docs/Armor.md)
+
 > Example: A hero with DEX 4 and No Armor has 9 Defence. A hero with DEX 2 and Light Armor also has 9 Defence.
 
 ### When HP Hits 0
