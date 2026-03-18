@@ -103,12 +103,17 @@ If a second hero assists, both roll d20 + the relevant stat and take the **highe
 
 ---
 
-## Weapons & Equipment
+## Weapons, Equipment & Items
 
-Some weapons or equipment require a minimum stat to use effectively. A Hero using a weapon below its requirement means they have a **disadvantage roll** — The Hero rolls the d20 twice and take the lower result.
+Some weapons require a minimum stat to use effectively. A Hero using a weapon below its requirement means **disadvantage** — The Hero rolls the d20 twice and take the lower result.
+
+Weapons that use ammo, like a Shortbow, will need to keep track of how many they use. To get more, heroes can either buy more from a shop, or a Long Rest will reset to it's default amount.
 
 See [Weapon Examples](/Docs/Weapons.md)
 
+Various Items can be purchased or found throughout the game.
+
+See [Items Examples](/Docs/Items.md)
 ---
 
 ## Combat
@@ -253,6 +258,14 @@ See [Bestiary Examples](/Docs/Bestiary.md)
 ### Monster Defeat
 
 When the heroes defeat the monster, reward them with items or gold. If the monster was legendary or a major boss, then let all the heroes level up!
+
+---
+
+## Starting a Campaign 
+
+Make up your own story with fun characters, strong bosses, mysteries to solve, and quests to complete. Make it silly, scary, mysterious, and fun! Maybe ask the players what they want to fight, or just keep it a mystery, then tweak the detials before you begin. The only limit it your imagination!
+
+See [Campaign Examples](/Docs/Campaign.md)
 
 ---
 
