@@ -1,7 +1,8 @@
 # Armor Examples
-### Use these as a starting point for your own armor
 
-Some armor require a minimum stat to use effectively.
+Use these as a starting point for your own armor
+
+---
 
 ## Armor Types
 

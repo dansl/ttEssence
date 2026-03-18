@@ -1,5 +1,6 @@
 # Weapons Examples
-### Use these as a starting point for your own weapons
+
+Use these as a starting point for your own weapons.
 
 Some weapons require a minimum stat to use effectively. A Hero using a weapon below its requirement means **disadvantage** — The Hero rolls the d20 twice and take the lower result.
 
@@ -8,6 +9,8 @@ Melee = STR
 Ranged = DEX
 
 Magic = MND
+
+---
 
 | Weapon | Damage | Requirement | Type |
 |---|---|---|---|

@@ -1,5 +1,6 @@
 # Bestiary Examples
-### Use these as a starting point for your own monsters
+
+Use these as a starting point for your own monsters.
 
 ---
 

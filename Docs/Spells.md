@@ -1,5 +1,8 @@
 # Spells Examples
-### Use these as a starting point for your own spells
+
+Use these as a starting point for your own spells.
+
+---
 
 **Tier 0 — Cantrips** *(1 MP)*
 - **Night Light** — Conjure a small flame or light
