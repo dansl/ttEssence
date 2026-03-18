@@ -13,7 +13,8 @@ Magic = MND
 |---|---|---|---|
 | Bare Hands | 1 | None | Melee |
 | Staff / Wand | d4 | None | Magic |
-| Dagger / Sling | d4 | None | Melee |
+| Dagger | d4 | None | Melee |
+| Sling | d4 | None | Ranged | 
 | Shortsword / Hand axe | d6 | STR 3+ | Ranged |
 | Shortbow | d6 | DEX 3+ | Ranged |
 | Longsword / Mace | d8 | STR 4+ | Melee |

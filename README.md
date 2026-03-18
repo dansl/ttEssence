@@ -25,9 +25,9 @@ There are no wrong ways to play. If a rule ever slows down the fun, ignore it. I
 
 [Bestiary Examples](Docs/Bestiary.md)
 
-[Weapons Examples](Docs/Weapons.md) (Coming Soon)
+[Weapons Examples](Docs/Weapons.md)
 
-[Spells Examples](Docs/Spells.md) (Coming Soon)
+[Spells Examples](Docs/Spells.md)
 
 [Armor Examples](Docs/Armor.md) (Coming Soon)
 
