@@ -26,7 +26,7 @@ Every hero/monster has four stats rated from **1 to 10**.
 
 ### Building a Hero
 
-See the [Character Sheet](/Docs/character-sheet.png). Start by distributing **10 points** across your four stats. Every stat must be at least **1**. To start, no stat can be above **5**, that cap rises to 10 at level 5. 
+See the [Character Sheet](/Docs/character-sheet.png). Print it off, and use a pencil so you can erase things as needed. Start by distributing **10 points** across your four stats. Every stat must be at least **1**. To start, no stat can be above **5**, that cap rises to 10 at level 5. 
 
 Each hero will start with 10 Gold, which they can then use to buy gear to help them start their adventure. The GM can either let them pick their items before starting, or maybe the game starts in a small town shop where the heroes can buy their gear.
 
