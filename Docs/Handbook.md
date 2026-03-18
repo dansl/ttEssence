@@ -217,7 +217,7 @@ Actions:
 · [Attack name] — roll d20+[stat] vs Defense. Hit: [damage]
 · [Special ability] — [effect, frequency]
 ─────────────────────────────────
-Description: One sentence. What does it look like? What does it want?
+Description: What does it look like? What does it want?
 ```
 
 ### Monster Tiers
