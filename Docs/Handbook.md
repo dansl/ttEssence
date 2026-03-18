@@ -102,22 +102,20 @@ When a hero tries something risky or uncertain, the Guide decides how difficult 
 - **Mind** — recall facts, spot hidden details, solve puzzles, cast spells
 - **Charisma** — persuade, lie, perform, intimidate, inspire allies
 
-> If an action could use two stats, the Guide picks whichever fits best — or lets the player choose and gives them +1 for clever thinking.
-
 ### Natural 20 & Natural 1
 
-- **Roll exactly 20** — Critical success! You succeed spectacularly. Something extra good happens — describe it together.
+- **Roll exactly 20** — Critical success! You succeed spectacularly. The Guide could even give bonus damage or bonus actions.
 - **Roll exactly 1** — Complication! You fail, and something unexpected also goes wrong. Keep it surprising, not punishing.
 
 ### Helping a Friend
 
-If a second hero assists, both roll d20 + the relevant stat and take the **higher result**. Only one helper per check.
+If a second hero assists, both roll d20 + the relevant stat and take the **higher result**. Only one helper Hero per check.
 
 ---
 
 ## Weapons & Equipment
 
-Some weapons require a minimum stat to use effectively. Using a weapon below its requirement means **disadvantage** — roll the d20 twice and take the lower result.
+Some weapons require a minimum stat to use effectively. A Hero using a weapon below its requirement means **disadvantage** — The Hero rolls the d20 twice and take the lower result.
 
 | Weapon | Damage | Requirement |
 |---|---|---|
@@ -136,7 +134,7 @@ Some weapons require a minimum stat to use effectively. Using a weapon below its
 
 ### Initiative
 
-At the start of combat, everyone — heroes and monsters alike — rolls a **d20**. Add any initiative bonus shown on the monster's stat block. Turns proceed from **highest to lowest**. Ties: heroes go before monsters; tied heroes act simultaneously.
+At the start of combat, everyone — heroes and monsters alike — rolls a **d20** + DEX. Turns proceed from **highest to lowest**. Ties: Heroes go before monsters; tied heroes could play "Rock, Paper, Scissors" to break the tie, or just roll again.
 
 ### Your Turn
 
@@ -148,7 +146,7 @@ Each turn you may do all of the following:
 
 ### Making an Attack
 
-Roll **d20 + STR** (melee) or **d20 + DEX** (ranged). Meet or beat the target's **Defense score** to hit. On a hit, roll your weapon's damage die and subtract from their HP.
+Roll **d20 + STR** (melee) or **d20 + DEX** (ranged) or **d20 + MND** (spell). Meet or beat the target's **Defense score** to hit. On a hit, roll your weapon's damage die and subtract from their HP.
 
 > *Example: A Hero (DEX 3) fires a shortbow at a goblin (Defense 11). She rolls d20 + 3 DEX = 16. Hit! She rolls d6 and gets 4 — the goblin takes 4 damage.*
 
