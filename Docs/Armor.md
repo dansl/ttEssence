@@ -11,7 +11,7 @@ Use these as a starting point for your own armor
 | No armor | 5 + DEX | |
 | Light armor | 7 + DEX | |
 | Medium armor | 9 + DEX | STR 4 |
-| Heavy armor | 11 + DEX | STR 7 |
+| Heavy armor | 11 + DEX | STR 6 |
 
 
 ## Armor Items
