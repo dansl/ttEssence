@@ -43,9 +43,9 @@ See the [Character Sheet](/Docs/character-sheet.png). Start by distributing **10
 
 **Hit Points (HP)** represent how much damage your hero can take before getting knocked out.
 
-> **HP = 10 + (STR × 2)**
+**HP = 10 + (STR × 2)**
 
-Example: A hero with STR 2 starts with **14 HP**. A hero with STR 4 starts with **18 HP**.
+> Example: A hero with STR 2 starts with **14 HP**. A hero with STR 4 starts with **18 HP**.
 
 **Defense** is the number attackers must beat by rolling a d20 to hit you.
 
@@ -56,13 +56,13 @@ Example: A hero with STR 2 starts with **14 HP**. A hero with STR 4 starts with 
 | Medium armor | 9 + DEX — requires STR 4 |
 | Heavy armor | 11 + DEX — requires STR 6 |
 
-Example: A hero with DEX 4 and No Armor has 9 Defence. A hero with DEX 2 and Light Armor also has 9 Defence.
+> Example: A hero with DEX 4 and No Armor has 9 Defence. A hero with DEX 2 and Light Armor also has 9 Defence.
 
 ### When HP Hits 0
 
 Your hero is **knocked out**. They can't act. An ally can spend their action to revive them, restoring 1d6 HP. If no one helps by the end of the next round, the hero wakes up on their own with 1 HP — bruised but alive.
 
-> **Heroes never permanently die by default.** For groups who want higher stakes, discuss changing this rule before play begins.
+**Heroes never permanently die by default.** For groups who want higher stakes, discuss changing this rule before play begins.
 
 ---
 
@@ -72,7 +72,7 @@ Your hero is **knocked out**. They can't act. An ally can spend their action to 
 
 When a hero tries something risky or uncertain, the GM decides how difficult the action will be using chart below. Heroes roll a **d20** and adds the relevant stat (ex: add DEX for a jump action or STR for pulling/pushing something). Meet or beat the **difficulty number** to succeed at the task.
 
-Example: Hero needs to jump over an easy gap, they rolled a 5 with a d20 and have 3 DEX. They successfully met the 8 requirement and make the jump! If they had rolled less then 5 and failed, then the GM decides what happens, maybe they take damage or maybe another player helps them by rolling another check!
+> Example: Hero needs to jump over an easy gap, they rolled a 5 with a d20 and have 3 DEX. They successfully met the 8 requirement and make the jump! If they had rolled less then 5 and failed, then the GM decides what happens, maybe they take damage or maybe another player helps them by rolling another check!
 
 | Difficulty | Number | Example |
 |---|---|---|
@@ -124,7 +124,7 @@ Each turn you may do all of the following:
 
 Depending on the weapon or action, you roll **d20 + STR** (Melee) or **d20 + DEX** (Ranged) or **d20 + MND** (Spell). Meet or beat the target's **Defense score** to hit. On a hit, roll your weapon or action's damage die and subtract from their HP.
 
-Example: A Hero (DEX 3) fires a shortbow at a goblin (Defense 11). They roll a d20 and get 9 + 3 DEX = 12. Hit! She rolls d6 and gets 4 — the goblin takes 4 damage.
+> Example: A Hero (DEX 3) fires a shortbow at a goblin (Defense 11). They roll a d20 and get 9 + 3 DEX = 12. Hit! She rolls d6 and gets 4 — the goblin takes 4 damage.
 
 ### Short & Long Rests
 
@@ -147,9 +147,9 @@ Roll a d20 + MND stat against the enemies Defense, then depending on the spell, 
 
 ### Magic Points
 
-> **MP = 4 + (MND × 2)**
+**MP = 4 + (MND × 2)**
 
-Example: A hero with MND 1 has 6 Magic Points (MP). A hero with MND 5 has 14 MP.
+> Example: A hero with MND 1 has 6 Magic Points (MP). A hero with MND 5 has 14 MP.
 
 ### Recover MP
 MP is restored after a short or long rest. You can also use potions or other items to restore MP.
@@ -157,7 +157,7 @@ MP is restored after a short or long rest. You can also use potions or other ite
 ### Spell Tiers
 
 | Tier | Name | Mind Req. | MP Cost | Damage |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | 0 | Cantrip | MND 1+ | 1 MP | none |
 | 1 | Minor | MND 2+ | 1 MP | d4 |
 | 2 | Moderate | MND 3+ | 2 MP | d6 |
@@ -170,7 +170,7 @@ Heroes start knowing **2 spells** from any tier they qualify for according to th
 
 See [Spells Examples](/Docs/Spells.md)
 
-Example: A fighter with MND 1 finds a Scroll of Fireball (Tier 2 — MND 3+). They can't learn it yet — but it's great motivation to invest in Mind when they level up.*
+> Example: A fighter with MND 1 finds a Scroll of Fireball (Tier 2 — MND 3+). They can't learn it yet — but it's great motivation to invest in Mind when they level up.*
 
 ---
 
