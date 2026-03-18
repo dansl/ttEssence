@@ -49,7 +49,7 @@ See the [Character Sheet](/Docs/character-sheet.png). Start by distributing **10
 
 **Defense** is the number attackers must beat by rolling a d20 to hit you.
 
-| Armor | Defense Score |
+| Type | Defense Score |
 |---|---|
 | No armor | 5 + DEX |
 | Light armor | 7 + DEX |

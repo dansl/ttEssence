@@ -29,7 +29,7 @@ There are no wrong ways to play. If a rule ever slows down the fun, ignore it. I
 
 [Spells Examples](Docs/Spells.md)
 
-[Armor Examples](Docs/Armor.md) (Coming Soon)
+[Armor Examples](Docs/Armor.md)
 
 [Items Examples](Docs/Items.md) (Coming Soon)
 
