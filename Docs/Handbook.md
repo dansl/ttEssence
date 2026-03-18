@@ -26,7 +26,9 @@ Every hero/monster has four stats rated from **1 to 10**.
 
 ### Building a Hero
 
-See the [Character Sheet](/Docs/character-sheet.png). Start by distributing **10 points** across your four stats. Every stat must be at least **1**. To start, no stat can be above **5**, that cap rises to 10 at level 5.
+See the [Character Sheet](/Docs/character-sheet.png). Start by distributing **10 points** across your four stats. Every stat must be at least **1**. To start, no stat can be above **5**, that cap rises to 10 at level 5. 
+
+Each hero will start with 10 Gold, which they can then use to buy gear to help them start their adventure. The GM can either let them pick their items before starting, or maybe the game starts in a small town shop where the heroes can buy their gear.
 
 #### Example Characters
 
@@ -47,7 +49,7 @@ See the [Character Sheet](/Docs/character-sheet.png). Start by distributing **10
 
 > Example: A hero with STR 2 starts with **14 HP**. A hero with STR 4 starts with **18 HP**.
 
-**Defense** is the number attackers must beat by rolling a d20 to hit you.
+**Defense** is the number attackers must meat or beat by rolling a d20 to hit you.
 
 | Type | Defense Score |
 |---|---|
@@ -130,10 +132,10 @@ Depending on the weapon or action, you roll **d20 + STR** (Melee) or **d20 + DEX
 
 ### Short & Long Rests
 
-In between battles and events you can Short or Long rest.
+In between a battle or big event you can Short or Long rest.
 
-- **Short rest** (a brief break) — restore **STR × 2 HP** and **MND × 1 MP**.
-- **Long rest** (a full night's sleep) — restore **all HP and all MP**, possibility to get attacked or robbed while resting.
+- **Short rest** (a brief break) — restore **half HP and MP**.
+- **Long rest** (a full night's sleep) — restore **all HP and all MP**, possibility to get attacked or robbed while resting. GM rolls to see if an event happens.
 
 ---
 
@@ -149,9 +151,9 @@ Roll a d20 + MND stat against the enemies Defense, then depending on the spell, 
 
 ### Magic Points
 
-**MP = 4 + (MND × 2)**
+**MP = 5 + (MND × 2)**
 
-> Example: A hero with MND 1 has 6 Magic Points (MP). A hero with MND 5 has 14 MP.
+> Example: A hero with MND 1 has 7 Magic Points (MP). A hero with MND 5 has 15 MP.
 
 ### Recover MP
 MP is restored after a short or long rest. You can also use potions or other items to restore MP.
@@ -247,6 +249,10 @@ Description: What does it look like? What does it want?
 > **Tip:** Start with less HP than you think you need. Players feel great defeating a monster in 4–5 rounds. A long drag kills the momentum.
 
 See [Bestiary Examples](/Docs/Bestiary.md)
+
+### Monster Defeat
+
+When the heroes defeat the monster, reward them with items or gold. If the monster was legendary or a major boss, then let all the heroes level up!
 
 ---
 

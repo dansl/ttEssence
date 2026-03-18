@@ -20,7 +20,7 @@ Use these as a starting point for your own monsters.
 **STR** 3 &nbsp; **DEX** 3 &nbsp; **MND** 2 &nbsp; **CHA** 2
 
 - **Bone Arrow** — d20+DEX vs Defense, ranged. Hit: d6 damage.
-- **Rattle** — Once per combat — all nearby heroes make a Mind check (difficulty 10) or lose their quick action on their next turn.
+- **Rattle** — Once per combat — all nearby heroes make a Mind check (difficulty 10)
 
 *Bleached bones held together by dark magic. Fires arrows without thought or fear.*
 
@@ -93,8 +93,8 @@ Use these as a starting point for your own monsters.
 **STR** 8 &nbsp; **DEX** 6 &nbsp; **MND** 7 &nbsp; **CHA** 8
 
 - **Claw / Claw / Bite** — Three attacks per turn: two Claws (d8, STR) and one Bite (d10+4, STR). May split among targets.
-- **Fire Breath** — All heroes in a cone make DEX check difficulty 15. Fail: 4d6 fire damage. Succeed: half damage. Recharges on 4+ on a d6 at the start of her turn.
-- **Wing Blast** — All nearby creatures make STR check difficulty 14 or are knocked prone and pushed back. Once per round.
+- **Fire Breath** — All heroes make DEX check difficulty 15. Fail: 4d6 fire damage. Succeed: half damage. Recharges on 4+ on a d6 at the start of her turn.
+- **Wing Blast** — All nearby creatures make STR check difficulty 14 or hero has disadvantage on next turn. Once per round.
 - **Legendary React** — Once per round when hit: immediately uses Fire Breath or Wing Blast before the hit resolves.
 - **Phase 2 — at 2/3 HP** — Becomes enraged: Claw attacks deal +d6; Defense drops to 15. Attacks twice as a free action immediately.
 - **Phase 3 — at 1/3 HP** — Takes to the sky: only ranged and spell attacks can reach her. Fire Breath recharges every turn. She is visibly wounded — and will negotiate if heroes hold firm.
