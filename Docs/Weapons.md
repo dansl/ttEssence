@@ -15,12 +15,16 @@ Magic = MND
 | Weapon | Damage | Requirement | Type |
 |---|---|---|---|
 | Bare Hands | 1 | None | Melee |
-| Staff / Wand | d4 | None | Magic |
+| Wand | 1 | None | Melee |
+| Staff | d4 | None | Magic |
 | Dagger | d4 | None | Melee |
 | Sling | d4 | None | Ranged | 
-| Shortsword / Hand axe | d6 | STR 3+ | Ranged |
+| Shortsword | d6 | STR 3+ | Melee |
+| Hand axe | d6 | STR 3+ | Melee |
 | Shortbow | d6 | DEX 3+ | Ranged |
-| Longsword / Mace | d8 | STR 4+ | Melee |
+| Longsword | d8 | STR 4+ | Melee |
+| Mace | d8 | STR 4+ | Melee |
 | Longbow | d8 | DEX 4+ | Ranged |
-| Greatsword / Warhammer | d10 | STR 5+ | Melee |
+| Greatsword | d10 | STR 5+ | Melee |
+| Warhammer | d10 | STR 5+ | Melee |
 | Heavy crossbow | d10 | DEX 5+ | Ranged |
