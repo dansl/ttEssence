@@ -171,5 +171,5 @@ A dragon so old her scales have turned ash-white. She guards a ruined city, beli
 | Special Actions | |
 |---|---|
 | **Phase 1: Summon Skeleton Archers** | At the start of the battle, summons (d6) Skeleton Archers that all attack on dragons turn. |
-| **Phase 2: 20 HP - 10 Defense** | Becomes enraged: Claw attacks deal d8 and Bite attacks deal d10. Attacks twice. |
-| **Phase 3: 10 HP - 8 Defense** | Takes to the sky: Only ranged and spell attacks can reach. Fire Breath always does d10 Fire Damage |
+| **Phase 2: HP 20 - Defense 10** | Becomes enraged: Claw attacks deal d8 and Bite attacks deal d10. Attacks twice. |
+| **Phase 3: HP 15 - Defense 8** | Takes to the sky: Only ranged and spell attacks can reach. Fire Breath always does d10 Fire Damage |
