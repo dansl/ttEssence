@@ -128,7 +128,7 @@ If a second hero assists, both roll d20 + the relevant stat and take the **highe
 
 Some weapons require a minimum stat to use effectively. A Hero using a weapon below its requirement means they have **disadvantage**.
 
-Weapons that use ammo, like a Shortbow, will need to keep track of how many they use. To get more, heroes can either buy more from a shop, or a Long Rest will reset to it's default amount.
+Weapons that use ammo, like a Shortbow, will need to keep track of how many they use. To get more, heroes can either buy more from a shop, or a Long Rest will reset to it's default amount. Want to simplify the game more? Then just ignore using ammo.
 
 See [Weapon Examples](/Docs/Weapons.md)
 
