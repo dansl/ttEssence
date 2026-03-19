@@ -72,6 +72,19 @@ Your hero is **knocked out**. They can't act. An ally can spend their action to 
 
 ## Checks & Rolls
 
+### Dice Names
+
+You will see lots of references to "d2", "d4", "d6", "d8", "d10", "d20". These are shortnames for various dice. The "d" stands for "die" and the number is how many sides. Sometimes you might see something like "2d6", which just means roll two six-sided dice or just roll one d6 twice.
+
+| Short | Description |
+|---|---|
+| d2 | Coin flip: heads = 1, tails = 2 |
+| d4 | Four sided die |
+| d6 | Six sided die |
+| d8 | Eight sided die |
+| d10 | Ten sided die |
+| d20 | Twenty sided die |
+
 ### Skill Check Roll
 
 When a hero tries something risky or uncertain, the GM decides how difficult the action will be using chart below. Heroes roll a **d20** and adds the relevant stat (ex: add DEX for a jump action or STR for pulling/pushing something). Meet or beat the **difficulty number** to succeed at the task.
@@ -245,11 +258,11 @@ Description: What does it look like? What does it want?
 
 | Tier | HP | Defense | Attack Damage |
 |---|---|---|---|
-| Minion | 6–10 | 9–11 | d4 or d6 |
-| Standard | 18–28 | 11–13 | d6 or d8 + one special ability |
-| Elite | 35–50 | 13–15 | d8 or d10 + two abilities |
-| Boss | 60–80 | 14–16 | d10 + two actions + legendary react |
-| Legendary | 100–140 | 16–18 | Multiple attacks + three phases |
+| Minion | 5-10 | 5–10 | d4 |
+| Standard | 10–15 | 10-15 | d6 |
+| Elite | 15–20 | 15–20 | d8 |
+| Boss | 20–25 | 20–25 | d10 + two actions |
+| Legendary | 25-30 | 25–30 | 2d10 Multiple attacks + multiple phases |
 
 > **Tip:** Start with less HP than you think you need. Players feel great defeating a monster in 4–5 rounds. A long drag kills the momentum.
 
