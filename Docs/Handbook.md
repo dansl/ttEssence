@@ -60,7 +60,7 @@ Each hero will start with 10 Gold, which they can then use to buy gear to help t
 
 See [Armor Examples](/Docs/Armor.md)
 
-> Example: A hero with DEX 4 and No Armor has 9 Defence. A hero with DEX 2 and Light Armor also has 9 Defence.
+> Example: A hero with DEX 4 and No Armor has 9 Defense. A hero with DEX 2 and Light Armor also has 9 Defense.
 
 ### When HP Hits 0
 
@@ -110,6 +110,14 @@ When a hero tries something risky or uncertain, the GM decides how difficult the
 - **Roll exactly 20** — Critical success! You succeed spectacularly. The GM could even give bonus damage or bonus actions.
 - **Roll exactly 1** — Complication! You fail, and something unexpected also goes wrong. Keep it surprising, not punishing.
 
+### Advantage & Disadvantage
+
+Sometimes the hero or monster will have an advantage or disadvantage depending on an event, spell, or action.
+
+**Advantage** — Rolls 2d20 and take the higher result.
+
+**Disadvantage** — Rolls 2d20 and take the lower result.
+
 ### Helping a Friend
 
 If a second hero assists, both roll d20 + the relevant stat and take the **higher result**. Only one helper Hero per check.
@@ -118,7 +126,7 @@ If a second hero assists, both roll d20 + the relevant stat and take the **highe
 
 ## Weapons, Equipment & Items
 
-Some weapons require a minimum stat to use effectively. A Hero using a weapon below its requirement means **disadvantage** — The Hero rolls the d20 twice and take the lower result.
+Some weapons require a minimum stat to use effectively. A Hero using a weapon below its requirement means they have **disadvantage**.
 
 Weapons that use ammo, like a Shortbow, will need to keep track of how many they use. To get more, heroes can either buy more from a shop, or a Long Rest will reset to it's default amount.
 
@@ -181,10 +189,10 @@ MP is restored after a short or long rest. You can also use potions or other ite
 | Tier | Name | Mind Req. | MP Cost | Damage |
 |---|---|---|---|---|
 | 0 | Cantrip | MND 1+ | 1 MP | none |
-| 1 | Minor | MND 2+ | 1 MP | d4 |
-| 2 | Moderate | MND 3+ | 2 MP | d6 |
-| 3 | Major | MND 4+ | 3 MP | d8 |
-| 4 | Legendary | MND 5+ | 4 MP | d10 |
+| 1 | Minor | MND 3+ | 1 MP | d4 |
+| 2 | Moderate | MND 4+ | 2 MP | d6 |
+| 3 | Major | MND 5+ | 3 MP | d8 |
+| 4 | Legendary | MND 6+ | 4 MP | d10 |
 
 ### Learning Spells
 
@@ -224,47 +232,21 @@ This game uses **milestone leveling**. The GM awards a level when the party reac
 
 ---
 
-## Monster Stat Blocks
-
-### The Format
-
-Every monster uses the same simple layout:
-
-```
-Name · Tier · Type
-HP: [number]   Defense: [number]
-STR [1–10]   DEX [1–10]   MND [1–10]   CHA [1-10]
-─────────────────────────────────
-Actions:
-· [Attack name] — roll d20+[stat] vs Defense. Hit: [damage]
-· [Special ability] — [effect, frequency]
-─────────────────────────────────
-Description: What does it look like? What does it want?
-```
-
-### Monster Tiers
-
-| Tier | Best Against | Role |
-|---|---|---|
-| Minion | Level 1–2 | Weak alone, dangerous in groups |
-| Standard | Level 3–4 | A solid fight for a party of 4 |
-| Elite | Level 5–6 | A tough solo threat or mid-boss |
-| Boss | Level 7–8 | Villain of a section |
-| Legendary | Level 9+ | Final Boss to a story |
-
----
+## Monsters
 
 ### Quick Monster Creation
 
-| Tier | HP | Defense | Attack Damage |
-|---|---|---|---|
-| Minion | 5-10 | 5–10 | d4 |
-| Standard | 10–15 | 10-15 | d6 |
-| Elite | 15–20 | 15–20 | d8 |
-| Boss | 20–25 | 20–25 | d10 + two actions |
-| Legendary | 25-30 | 25–30 | 2d10 Multiple attacks + multiple phases |
+Make a monster like you would a hero, just lower the distribution of the points and lower the HP and MP calculation.
 
-> **Tip:** Start with less HP than you think you need. Players feel great defeating a monster in 4–5 rounds. A long drag kills the momentum.
+| Tier | Stat Points | Attack Damage | Bonus |
+|---|---|---|---|
+| Minion | 8 | d4 | None |
+| Standard | 12 | d6 | None |
+| Elite | 16 | d8 | +10 HP |
+| Boss | 20 | d10 + two actions | +15 HP |
+| Legendary | 25 | 2d10 + two action + multiple phases | +20 HP |
+
+If you want to make the game easier, use **half (round up)** what the heroes use to calculate HP, MP, Defense (ex: HP=5+(STR x2)). For added difficulty, you can adjust it up.
 
 See [Bestiary Examples](/Docs/Bestiary.md)
 
@@ -276,7 +258,7 @@ When the heroes defeat the monster, reward them with items or gold. If the monst
 
 ## Starting a Campaign 
 
-Make up your own story with fun characters, strong bosses, mysteries to solve, and quests to complete. Make it silly, scary, mysterious, and fun! Maybe ask the players what they want to fight, or just keep it a mystery, then tweak the detials before you begin. The only limit is your imagination!
+Make up your own story with fun characters, strong bosses, mysteries to solve, and quests to complete. Make it silly, scary, mysterious, and fun! Maybe ask the players what they want to fight, or just keep it a mystery, then tweak the details before you begin. The only limit is your imagination!
 
 See [Campaign Examples](/Docs/Campaign.md)
 
