@@ -1,8 +1,6 @@
 # ttEssence - Handbook
 A simplified Tabletop Role-Playing Game (ttRPG) ruleset. Made to be as simple and accessible as possible for people who just want to enjoy a fun story and roll some dice along the way!
 
----
-
 ## The Four Stats
 
 Every hero/monster has four stats rated from **1 to 10**.
@@ -201,7 +199,7 @@ Heroes start knowing **2 spells** from any tier they qualify for according to th
 
 See [Spells Examples](/Docs/Spells.md)
 
-> Example: A fighter with MND 1 finds a Scroll of Fireball (Tier 2 — MND 3+). They can't learn it yet — but it's great motivation to invest in Mind when they level up.*
+> Example: A fighter with MND 2 finds a Scroll of Fireball (Tier 2 — MND 4+). They can't learn it yet — but it's great motivation to invest in Mind when they level up.*
 
 ---
 
